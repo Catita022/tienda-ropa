@@ -1,0 +1,472 @@
+
+
+
+
+
+/* importo la fuente q usare en el sitio */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/* para cambiar el valor de rem de 16 a 10px */
+body{
+    font-size:62.5%; 
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* reset pag */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+/* header--------------- */
+header{
+    font-size:1.5rem;
+    
+    
+    
+}
+/* acomodo etiquetas*/
+.mi-header{
+    display:flex;
+    justify-content: flex-end;
+    
+    
+    
+
+}
+
+.mi-header a{
+    color:black;
+    text-transform: uppercase;
+    border-right:1px solid gray;
+    border-bottom: 1px solid gray;
+    margin:5px;
+    text-align:center;
+    
+}
+
+/* logo header */
+header img{
+    width:100px;
+    border-radius:60px; 
+    padding:5px; 
+    border:2px solid gray;
+    
+}
+/* dejo la barra fija */
+.class-header{
+    position:sticky;
+    top:0px;
+    z-index:3;
+    
+}
+
+
+
+
+/* main-----banner */
+
+
+.banner{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    background-image:url('../media/banner.jpg');
+    background-size:cover;
+    background-position:center;
+    height:300px;
+    color:white;
+    font-size:2.5rem;
+    text-transform:uppercase;
+    text-shadow: 4px 4px 2px rgba(23, 2, 59, 0.74);
+    font-weight: bold;
+    
+    
+}
+
+.banner h1{
+    padding-top:50px;
+    font-size:3rem;
+    font-weight: bold;   
+    
+}
+.banner p{
+    padding-top:30px;
+    text-align: center;
+    
+}
+
+
+/* ------------------------------main-------------index */
+.titulo-destacado-index{
+    padding:10px;
+    height:60px;
+    /* background-color:black; */
+    color:white;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:2rem;
+    text-shadow: 4px 4px 2px rgba(153, 149, 162, 0.74);
+    
+    
+}
+
+
+/* section destacados index ----------------- */
+
+
+.productos-destacado img{
+    height:500px;
+    border:2px solid black;
+}
+
+.tarjetas-index{
+    border:1px solid black;
+    
+
+}
+.tarjetas-index img{
+    margin:0px;
+    height:400px;
+}
+
+.tarjetas-index p{
+    font-size:1rem;
+    
+}
+.tarjetas-index h3{
+    font-size:2rem;
+    color:gray;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.tarjetas-index .precio-index a{
+    text-align: center;
+    color:blue;
+    text-decoration: none;
+    
+    
+}
+
+/* footer ------------------- */
+
+   
+
+footer{
+    display:flex;
+    flex-direction:column;
+    
+
+    background-color:white;
+   
+    
+}   
+.mi-footer{
+    display:flex;
+    justify-content:center;
+    margin:5px;
+}
+footer img{
+    
+    width:60px;
+    padding-left:10px;
+    
+    
+    
+    
+    
+}
+.mi-footer a{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 25%;
+    background-color:white;
+    padding-left: 1px;
+}
+.mi-footer a:hover{
+    background-color:#D0D4CA;
+    
+}
+
+footer p{
+    margin-top:5px;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 40px;
+    color:black;
+    text-transform:capitalize;
+    text-align: center;  
+    
+    
+}
+.arriba a{
+    margin-top:3px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px groove gray;
+    padding:5px;
+}
+.arriba a:hover{
+    font-size:1.8rem;
+}
+
+/* ----------------------------------------------main hombre.html----------------- */
+/* titulo seccion hombre------------- */
+.title-man{
+    background-color:black;
+    text-align:center;
+    font-size: 2rem;
+    margin:0px;
+    padding-top:10px;
+    color:white;
+    
+}
+.title-man h2{
+    font-weight:bold;
+    text-transform:capitalize;
+    text-shadow:4px 0px 5px white;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.title-man h3{
+    text-transform: capitalize;
+    margin:0px;
+    color:black;
+    text-shadow:4px 0px 5px black;
+    padding-bottom: 10px;
+    padding-top:10px;
+    background-color:white;
+    
+}
+/* section arcticulos hombre------------------------------- */
+.padre-hombre{
+    background-color:white;
+    padding-top:5px;
+    
+}
+
+.section-hombre img{
+    
+    width:80%;
+    height: 80%;
+    border:1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    
+     
+}
+
+.section-hombre p{
+    color:black;
+    font-size:1.5rem;
+    text-transform:capitalize;
+}
+
+
+/* -----------------main mujer.html------------------- */
+
+.title-woman{
+    background-color:black;
+    text-align:center;
+    font-size: 2rem;
+    margin:0px;
+    padding-top:10px;
+    color:white;
+    
+}
+.title-woman h2{
+    font-weight:bold;
+    text-transform:capitalize;
+    text-shadow:4px 0px 5px white;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.title-woman h3{
+    text-transform: capitalize;
+    margin:0px;
+    color:black;
+    text-shadow:4px 0px 5px black;
+    padding-bottom: 10px;
+    padding-top:10px;
+    background-color:white;
+    
+}
+
+.padre-mujer{
+    background-color:white;
+    padding-top:5px;
+    
+}
+
+.section-mujer img{
+    
+    width:80%;
+    height: 80%;
+    border:1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    
+     
+}
+
+.section-mujer p{
+    color:black;
+    font-size:1.5rem;
+    text-transform:capitalize;
+}
+
+
+
+
+/* ---------main nosotros.html------------------------------- */
+.titulo-nosotros{
+    margin-top:20px;
+    height:60px;
+    color:black;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:2rem;
+    font-weight: bold;
+    
+}
+.seccion-historia{
+    color:white;
+    margin:1px;
+    font-size: 1.5rem;
+}
+.seccion-historia img{
+    width:100%;
+    
+}
+.seccion-historia h2{
+    padding:1px;
+    
+}
+
+/* ---------nuestro equipo- */
+.nuestro-equipo h2{
+    font-size:1.5;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.nuestro-equipo p{
+    text-transform: capitalize;
+    font-size: 1rem;
+    
+    
+}
+
+
+
+
+
+
+/* -----------------main contacto.html------ */
+.titulo-contactos {
+    margin-top:25px;
+    height:60px;
+    color:white;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:2rem;
+    text-shadow: 4px 4px 2px rgba(153, 149, 162, 0.74);
+    background-color:black;
+}
+
+
+.link-contactos{
+    display:flex;
+    justify-content:space-around;
+    height: 120px;
+    background-color:white;
+}
+
+.comunicate-nosotros img{
+    
+    width:90px;
+    padding-top:2px;
+}  
+
+
+
+
+/* formulario---------------------------------------- */
+
+.titulo-formulario{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: white;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
+
+
+.formulario{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:white;
+    /* margin-top:0px;
+    margin-bottom: 0px; */
+
+}
+
+
+
+
+
+.titulo-input{
+    font-size:1rem;
+    text-transform: capitalize;
+    padding:10px;
+}
+
+.caja-input{
+    padding:10px;
+    /* border:2px solid blue; */
+}
+.caja-buttom{
+    text-align:center;
+}
+
+
+/* ------------------------mediaQ */
+
+@media only screen and ( max-width:580px) {
+    .banner{
+        display: none;
+    }
+    .cambio-size{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .mi-footer{
+        padding:10px;
+    }
+    .mi-footer a img{
+        width:50px;
+        
+    }
+    .mi-footer p{
+        font-size:1rem;
+        padding-bottom:5px;
+    }
+    .productos-destacado{
+        height:400px;
+    }
+
+    
+}
