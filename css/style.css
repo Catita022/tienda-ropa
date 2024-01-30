@@ -185,22 +185,18 @@ footer{
 footer img{
     
     width:60px;
-    padding-left:10px;
-    
-    
-    
-    
-    
+    padding-left:10px;  
 }
+
 .mi-footer a{
     margin: 10px;
-    border: 1px solid black;
-    border-radius: 25%;
+    border: 1px solid black; 
+    border-radius: 20%;
     background-color:white;
     padding-left: 1px;
 }
 .mi-footer a:hover{
-    background-color:#D0D4CA;
+    background-color:#c7ed8e;
     
 }
 
@@ -215,14 +211,15 @@ footer p{
     
     
 }
-.arriba a{
+/* .arriba a{
     margin-top:3px;
     color:black;
     font-weight: bold;
     text-decoration: none;
     border: 1px groove gray;
     padding:5px;
-}
+    
+} */
 .arriba a:hover{
     font-size:1.8rem;
 }
