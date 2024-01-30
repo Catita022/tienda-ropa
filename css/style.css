@@ -123,9 +123,18 @@ header img{
 
 
 .productos-destacado img{
-    height:500px;
+    object-fit:contain;
+    /* object-position:bottom; */
+    background-color:white;
+    height: 550px;
     border:2px solid black;
 }
+.mi-color{
+    border-radius: 50%;
+    background-color:gray;
+
+}
+
 
 .tarjetas-index{
     border:1px solid black;
@@ -452,7 +461,26 @@ footer p{
         display:flex;
         flex-direction: column;
     }
+    /* index---- */
+   
+    
+    .productos-destacado img{
+        object-fit:contain;
+        padding:10px;
+        object-position:top;
+        padding:0px;
+        height: 500px;
+        background-color:black;
+       
+        
+    }
+    .mi-alto{
+        height: 100% !important;
+    }
 
+
+   
+    
     .mi-footer{
         padding:10px;
     }
@@ -465,7 +493,7 @@ footer p{
         padding-bottom:5px;
     }
     .productos-destacado{
-        height:400px;
+        height:250px;
     }
 
     
