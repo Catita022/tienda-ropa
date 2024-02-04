@@ -1,0 +1,53 @@
+/*contactos*/
+main{
+    .titulo-contactos{
+        margin-top:25px;
+        height:60px;
+        color:$color-white;
+        text-align:center;
+        text-transform:capitalize;
+        font-size:2rem;
+        text-shadow: 4px 4px 2px rgba(153, 149, 162, 0.74);
+        background-color:$color-black;
+    }
+    .link-contactos{
+        display:flex;
+        justify-content:space-around;
+        height: 100px;
+        background-color:$color-white;
+
+        img{
+            width:60px;
+            padding-top:5px; 
+        }
+    }
+    section{
+        .titulo-formulario{
+            font-size: 1.5rem;
+            text-align: center;
+            text-transform: capitalize;
+            background-color:$color-white;
+            margin-bottom: 0px;
+            font-weight: bold;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+            padding-top:40px;
+        }
+    }
+    .formulario{
+        @include flex(row,space-around,center);
+        
+        background-color:$color-white;
+        .caja-input{
+            padding:10px;
+            .titulo-input{
+                font-size:1rem;
+                text-transform: capitalize;
+                padding:10px;
+            }
+        }
+        .caja-buttom{
+            text-align:center;
+        }
+        
+    }
+}

@@ -1,0 +1,44 @@
+/*mujer----*/
+main{
+    .title-woman{
+        background-color:$color-black;
+        text-align:center;
+        font-size: 2rem;
+        margin:0px;
+        padding-top:10px;
+        color:$color-white;
+        h2{
+            font-weight:bold;
+            text-transform:capitalize;
+            text-shadow:4px 0px 5px $color-white;
+            text-decoration: underline;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        h3{
+            text-transform: capitalize;
+            margin:0px;
+            color:$color-black;
+            text-shadow:4px 0px 5px $color-black;
+            padding-bottom: 10px;
+            padding-top:10px;
+            background-color:$color-white;
+            
+        }
+    }
+    .padre-mujer{
+        background-color:$color-white;
+        padding-top:5px;
+        img{
+            width:80%;
+            height: 80%;
+            border:1px solid $color-black;
+            border-radius: 10px 10px 10px 10px;
+        }
+        p{
+            color:$color-black;
+            font-size:1.5rem;
+            text-transform:capitalize;
+        }
+    }
+}

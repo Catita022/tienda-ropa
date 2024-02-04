@@ -1,0 +1,61 @@
+/*carrusel---*/
+main{
+    
+    .titulo-destacado-index{
+        padding:10px;
+        height:60px;
+        color: $color-white;
+        text-align:center;
+        text-transform:capitalize;
+        font-size:2rem;
+        text-shadow: 4px 4px 2px rgba(153, 149, 162, 0.74); 
+    }
+    .productos-destacado{
+        
+        img{
+            object-fit:contain; 
+            background-color:$color-white;
+            height: 550px;
+            border:2px solid $color-black;
+        }
+        
+        button{
+            .mi-color{
+                border-radius: 50%;
+                background-color:$color-gray;
+            }
+        }
+    }
+    
+    section{
+        .titulo-destacado-index{
+            @extend .titulo-destacado-index;
+            
+        }
+        .tarjetas-index{
+            img{
+                margin:0px;
+                height:350px;
+                }
+                h3{
+                    font-size:2rem;
+                    color:$color-gray;
+                    font-weight: bold;
+                    text-transform: capitalize;
+                }
+                p{
+                    font-size:1rem;
+                }
+                .mas-productos{
+                    a{
+                        text-align: center;
+                        color:blue;
+                        text-decoration: none;
+                    }
+                }
+        }
+    }
+        
+
+    
+}

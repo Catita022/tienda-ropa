@@ -1,0 +1,21 @@
+.banner{
+    @include flex(column,flex-start,center);
+    background-image:url('../media/banner.jpg');
+    background-size:cover;
+    background-position:center;
+    height:300px;
+    color:$color-white;
+    font-size:2.5rem;
+    text-transform:uppercase;
+    text-shadow: 4px 4px 2px rgba(23, 2, 59, 0.74);
+    font-weight: bold;
+    h1{
+        padding-top:50px;
+        font-size:3rem;
+        font-weight: bold; 
+    }
+    p{
+        padding-top:30px;
+        text-align: center;
+    }
+}

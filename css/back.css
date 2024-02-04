@@ -32,14 +32,15 @@
     
 } */
 /* acomodo etiquetas*/
-.mi-header{
+/* .mi-header{
+
     display:flex;
     justify-content: flex-end;
     
     
     
 
-}
+} */
 
 /* .mi-header a{
     color:black;
@@ -73,7 +74,7 @@
 /* main-----banner */
 
 
-.banner{
+/* .banner{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -89,26 +90,26 @@
     font-weight: bold;
     
     
-}
+} */
 
-.banner h1{
+/* .banner h1{
     padding-top:50px;
     font-size:3rem;
     font-weight: bold;   
     
-}
-.banner p{
+} */
+/* .banner p{
     padding-top:30px;
     text-align: center;
     
-}
+} */
 
 
 /* ------------------------------main-------------index */
-.titulo-destacado-index{
+/* .titulo-destacado-index{
     padding:10px;
     height:60px;
-    /* background-color:black; */
+    background-color:black;
     color:white;
     text-align:center;
     text-transform:capitalize;
@@ -116,52 +117,52 @@
     text-shadow: 4px 4px 2px rgba(153, 149, 162, 0.74);
     
     
-}
+} */
 
 
 /* section destacados index ----------------- */
 
 
-.productos-destacado img{
+/* .productos-destacado img{
     object-fit:contain; 
     background-color:white;
     height: 550px;
     border:2px solid black;
-}
-.mi-color{
+} */
+/* .mi-color{
     border-radius: 50%;
     background-color:gray;
 
-}
+} */
 
 
-.tarjetas-index{
+/* .tarjetas-index{
     border:1px solid black;
     
 
-}
-.tarjetas-index img{
+} */
+/* .tarjetas-index img{
     margin:0px;
     height:400px;
-}
+} */
 
-.tarjetas-index p{
+/* .tarjetas-index p{
     font-size:1rem;
     
-}
-.tarjetas-index h3{
+} */
+/* .tarjetas-index h3{
     font-size:2rem;
     color:gray;
     font-weight: bold;
     text-transform: capitalize;
-}
-.tarjetas-index .precio-index a{
+} */
+/* .tarjetas-index .precio-index a{
     text-align: center;
     color:blue;
     text-decoration: none;
     
     
-}
+} */
 
 /* footer ------------------- */
 
@@ -215,7 +216,7 @@
 
 /* ----------------------------------------------main hombre.html----------------- */
 /* titulo seccion hombre------------- */
-.title-man{
+/* .title-man{
     background-color:black;
     text-align:center;
     font-size: 2rem;
@@ -223,8 +224,8 @@
     padding-top:10px;
     color:white;
     
-}
-.title-man h2{
+} */
+/* .title-man h2{
     font-weight:bold;
     text-transform:capitalize;
     text-shadow:4px 0px 5px white;
@@ -232,8 +233,8 @@
     padding-bottom: 10px;
     padding-top: 10px;
     
-}
-.title-man h3{
+} */
+/* .title-man h3{
     text-transform: capitalize;
     margin:0px;
     color:black;
@@ -242,15 +243,15 @@
     padding-top:10px;
     background-color:white;
     
-}
+} */
 /* section arcticulos hombre------------------------------- */
-.padre-hombre{
+/* .padre-hombre{
     background-color:white;
     padding-top:5px;
     
-}
+} */
 
-.section-hombre img{
+/* .section-hombre img{
     
     width:80%;
     height: 80%;
@@ -258,18 +259,18 @@
     border-radius: 10px 10px 10px 10px;
     
      
-}
+} */
 
-.section-hombre p{
+/* .section-hombre p{
     color:black;
     font-size:1.5rem;
     text-transform:capitalize;
-}
+} */
 
 
 /* -----------------main mujer.html------------------- */
 
-.title-woman{
+/* .title-woman{
     background-color:black;
     text-align:center;
     font-size: 2rem;
@@ -277,8 +278,8 @@
     padding-top:10px;
     color:white;
     
-}
-.title-woman h2{
+} */
+/* .title-woman h2{
     font-weight:bold;
     text-transform:capitalize;
     text-shadow:4px 0px 5px white;
@@ -286,8 +287,8 @@
     padding-bottom: 10px;
     padding-top: 10px;
     
-}
-.title-woman h3{
+} */
+/* .title-woman h3{
     text-transform: capitalize;
     margin:0px;
     color:black;
@@ -296,15 +297,15 @@
     padding-top:10px;
     background-color:white;
     
-}
+} */
 
-.padre-mujer{
+/* .padre-mujer{
     background-color:white;
     padding-top:5px;
     
-}
+} */
 
-.section-mujer img{
+/* .section-mujer img{
     
     width:80%;
     height: 80%;
@@ -312,19 +313,19 @@
     border-radius: 10px 10px 10px 10px;
     
      
-}
+} */
 
-.section-mujer p{
+/* .section-mujer p{
     color:black;
     font-size:1.5rem;
     text-transform:capitalize;
-}
+} */
 
 
 
 
 /* ---------main nosotros.html------------------------------- */
-.titulo-nosotros{
+/* .titulo-nosotros{
     margin-top:20px;
     height:60px;
     color:black;
@@ -333,33 +334,33 @@
     font-size:2rem;
     font-weight: bold;
     
-}
-.seccion-historia{
+} */
+/* .seccion-historia{
     color:white;
     margin:1px;
     font-size: 1.5rem;
-}
-.seccion-historia img{
+} */
+/* .seccion-historia img{
     width:100%;
     
-}
-.seccion-historia h2{
+} */
+/* .seccion-historia h2{
     padding:1px;
     
-}
+} */
 
 /* ---------nuestro equipo- */
-.nuestro-equipo h2{
+/* .nuestro-equipo h2{
     font-size:1.5;
     text-transform: capitalize;
     font-weight: bold;
-}
-.nuestro-equipo p{
+} */
+/* .nuestro-equipo p{
     text-transform: capitalize;
     font-size: 1rem;
     
     
-}
+} */
 
 
 
@@ -367,7 +368,7 @@
 
 
 /* -----------------main contacto.html------ */
-.titulo-contactos {
+/* .titulo-contactos {
     margin-top:25px;
     height:60px;
     color:white;
@@ -376,29 +377,29 @@
     font-size:2rem;
     text-shadow: 4px 4px 2px rgba(153, 149, 162, 0.74);
     background-color:black;
-}
+} */
 
 
-.link-contactos{
+/* .link-contactos{
     display:flex;
     justify-content:space-around;
     height: 100px;
     background-color:white;
     
-}
+} */
 
-.comunicate-nosotros img{
+/* .comunicate-nosotros img{
     
     width:60px;
     padding-top:5px;
-}  
+}   */
 
 
 
 
 /* formulario---------------------------------------- */
 
-.titulo-formulario{
+/* .titulo-formulario{
     font-size: 1.5rem;
     text-align: center;
     text-transform: capitalize;
@@ -407,36 +408,36 @@
     font-weight: bold;
     text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
     padding-top:40px;
-}
+} */
 
 
-.formulario{
+/* .formulario{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     background-color:white;
-    /* margin-top:0px;
-    margin-bottom: 0px; */
+    margin-top:0px;
+    margin-bottom: 0px;
 
-}
-
-
+} */
 
 
 
-.titulo-input{
+
+
+/* .titulo-input{
     font-size:1rem;
     text-transform: capitalize;
     padding:10px;
-}
+} */
 
-.caja-input{
+/* .caja-input{
     padding:10px;
-    /* border:2px solid blue; */
-}
-.caja-buttom{
+    border:2px solid blue; 
+} */
+/* .caja-buttom{
     text-align:center;
-}
+} */
 
 
 /* ------------------------mediaQ */
@@ -466,9 +467,9 @@
         
     }
     /* para carrusel imagen */
-    .mi-alto{
+    /* .mi-alto{
         height: 100% !important;
-    }
+    } */
 
 
    /* footer ------- */

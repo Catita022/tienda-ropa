@@ -1,0 +1,45 @@
+/*nosotros*/
+main{
+    .seccion-historia{
+        color:$color-white;
+        margin:1px;
+        font-size: 1.5rem;
+        img{
+            width:100%;
+        }
+        .titulo-nosotros{
+            margin-top:20px;
+            height:60px;
+            color:$color-black;
+            text-align:center;
+            text-transform:capitalize;
+            font-size:2rem;
+            font-weight: bold;
+        }
+        p{
+            color:$color-gray;
+            font-weight:bold;
+            text-transform: capitalize;
+            
+        }
+        
+            
+                
+            
+        
+    }
+    .nuestro-equipo{
+        h2{
+            font-size:1.5;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        p{
+            color:$color-gray;
+            text-transform: capitalize;
+            font-weight:bold;
+            font-size: 1rem; 
+        }
+
+    }
+}

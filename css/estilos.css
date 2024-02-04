@@ -26,7 +26,12 @@ body {
   padding: 5px;
   border: 2px solid #808080;
 }
-.class-header .mi-header a {
+.class-header ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.class-header ul a {
   color: #000000;
   text-transform: uppercase;
   border-right: 1px solid #808080;
@@ -34,14 +39,14 @@ body {
   margin: 5px;
   text-align: center;
 }
-.class-header .mi-header a:hover {
+.class-header ul a:hover {
   color: #808080;
 }
 
 /* foooter---*/
 footer {
   background-color: #ffffff;
-  margin-top: 5px;
+  /*margin-top:5px;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,8 +84,268 @@ footer .mi-footer a:hover {
 footer .arriba a img {
   width: 30px;
 }
-footer .arriba a:hover img {
-  width: 50px;
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("../media/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: #ffffff;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 2px rgba(23, 2, 59, 0.74);
+  font-weight: bold;
+}
+.banner h1 {
+  padding-top: 50px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.banner p {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/*carrusel---*/
+main .titulo-destacado-index, main section .titulo-destacado-index {
+  padding: 10px;
+  height: 60px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  text-shadow: 4px 4px 2px rgba(153, 149, 162, 0.74);
+}
+main .productos-destacado img {
+  object-fit: contain;
+  background-color: #ffffff;
+  height: 550px;
+  border: 2px solid #000000;
+}
+main .productos-destacado button .mi-color {
+  border-radius: 50%;
+  background-color: #808080;
+}
+main section .tarjetas-index img {
+  margin: 0px;
+  height: 350px;
+}
+main section .tarjetas-index h3 {
+  font-size: 2rem;
+  color: #808080;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+main section .tarjetas-index p {
+  font-size: 1rem;
+}
+main section .tarjetas-index .mas-productos a {
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+}
+
+/*hombre-----*/
+main .title-man {
+  background-color: #000000;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0px;
+  padding-top: 10px;
+  color: #ffffff;
+}
+main .title-man h2 {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-shadow: 4px 0px 5px #ffffff;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+main .title-man h3 {
+  text-transform: capitalize;
+  margin: 0px;
+  color: #000000;
+  text-shadow: 4px 0px 5px #000000;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #ffffff;
+}
+main .padre-hombre {
+  background-color: #ffffff;
+  padding-top: 5px;
+}
+main .padre-hombre .section-hombre img {
+  width: 80%;
+  height: 80%;
+  border: 1px solid #000000;
+  border-radius: 10px 10px 10px 10px;
+}
+main .padre-hombre .section-hombre p {
+  color: #000000;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+/*mujer----*/
+main .title-woman {
+  background-color: #000000;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0px;
+  padding-top: 10px;
+  color: #ffffff;
+}
+main .title-woman h2 {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-shadow: 4px 0px 5px #ffffff;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+main .title-woman h3 {
+  text-transform: capitalize;
+  margin: 0px;
+  color: #000000;
+  text-shadow: 4px 0px 5px #000000;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #ffffff;
+}
+main .padre-mujer {
+  background-color: #ffffff;
+  padding-top: 5px;
+}
+main .padre-mujer img {
+  width: 80%;
+  height: 80%;
+  border: 1px solid #000000;
+  border-radius: 10px 10px 10px 10px;
+}
+main .padre-mujer p {
+  color: #000000;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+/*nosotros*/
+main .seccion-historia {
+  color: #ffffff;
+  margin: 1px;
+  font-size: 1.5rem;
+}
+main .seccion-historia img {
+  width: 100%;
+}
+main .seccion-historia .titulo-nosotros {
+  margin-top: 20px;
+  height: 60px;
+  color: #000000;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: bold;
+}
+main .seccion-historia p {
+  color: #808080;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+main .nuestro-equipo h2 {
+  font-size: 1.5;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+main .nuestro-equipo p {
+  color: #808080;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/*contactos*/
+main .titulo-contactos {
+  margin-top: 25px;
+  height: 60px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  text-shadow: 4px 4px 2px rgba(153, 149, 162, 0.74);
+  background-color: #000000;
+}
+main .link-contactos {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: #ffffff;
+}
+main .link-contactos img {
+  width: 60px;
+  padding-top: 5px;
+}
+main section .titulo-formulario {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #ffffff;
+  margin-bottom: 0px;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  padding-top: 40px;
+}
+main .formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+}
+main .formulario .caja-input {
+  padding: 10px;
+}
+main .formulario .caja-input .titulo-input {
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 10px;
+}
+main .formulario .caja-buttom {
+  text-align: center;
+}
+
+/*mediaQ*/
+@media only screen and (max-width: 580px) {
+  .banner {
+    display: none;
+  }
+  .cambio-size {
+    display: flex;
+    flex-direction: column;
+  }
+  /*index*/
+  .productos-destacados {
+    height: 250px;
+  }
+  .productos-destacados img {
+    object-fit: contain;
+    padding: 10px;
+    object-position: bottom;
+    height: 400px;
+    background-color: rgb(45, 45, 112);
+  }
+  /*footer---*/
+  footer p {
+    padding: 30px;
+    font-size: 1.2rem;
+  }
+  footer .mi-footer a {
+    border: none;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
