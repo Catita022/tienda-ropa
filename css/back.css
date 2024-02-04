@@ -25,12 +25,12 @@
 
 
 /* header--------------- */
-header{
+/* header{
     font-size:1.5rem;
     
     
     
-}
+} */
 /* acomodo etiquetas*/
 .mi-header{
     display:flex;
@@ -41,7 +41,7 @@ header{
 
 }
 
-.mi-header a{
+/* .mi-header a{
     color:black;
     text-transform: uppercase;
     border-right:1px solid gray;
@@ -49,23 +49,23 @@ header{
     margin:5px;
     text-align:center;
     
-}
+} */
 
 /* logo header */
-header img{
+/* header img{
     width:100px;
     border-radius:60px; 
     padding:5px; 
     border:2px solid gray;
     
-}
+} */
 /* dejo la barra fija */
-.class-header{
+/* .class-header{
     position:sticky;
     top:0px;
     z-index:3;
     
-}
+} */
 
 
 
@@ -167,39 +167,37 @@ header img{
 
    
 
-footer{
+/* footer{
     display:flex;
     flex-direction:column;
-    
-
     background-color:white;
    
     
-}   
-.mi-footer{
+}    */
+/* .mi-footer{
     display:flex;
     justify-content:center;
     margin:5px;
-}
-footer img{
+} */
+/* footer img{
     
     width:60px;
     padding-left:10px;  
-}
+} */
 
-.mi-footer a{
+/* .mi-footer a{
     margin: 10px;
     border: 1px solid black; 
     border-radius: 20%;
     background-color:white;
     padding-left: 1px;
-}
-.mi-footer a:hover{
+} */
+/* .mi-footer a:hover{
     background-color:gray;
     
-}
+} */
 
-footer p{
+/* footer p{
     margin-top:5px;
     font-size: 1.5rem;
     width: 100%;
@@ -209,11 +207,11 @@ footer p{
     text-align: center;  
     
     
-}
+} */
 
-.arriba a:hover{
+/* .arriba a:hover{
     font-size:1.8rem;
-}
+} */
 
 /* ----------------------------------------------main hombre.html----------------- */
 /* titulo seccion hombre------------- */

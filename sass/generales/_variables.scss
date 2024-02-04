@@ -2,6 +2,7 @@
 $font:'Roboto', sans-serif;
 $color-black:#000000;
 $color-white:#ffffff;
+$color-gray:#808080;
 $spacing-reset:0px;
 
 // mixin-flex
@@ -11,3 +12,4 @@ $spacing-reset:0px;
     justify-content: $justify;
     align-items: $aling;
 }
+

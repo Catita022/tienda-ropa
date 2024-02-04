@@ -14,5 +14,73 @@ body {
 }
 
 /*header------*/
+.class-header {
+  font-size: 1.5rem;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+.class-header img {
+  width: 100px;
+  border-radius: 60px;
+  padding: 5px;
+  border: 2px solid #808080;
+}
+.class-header .mi-header a {
+  color: #000000;
+  text-transform: uppercase;
+  border-right: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  margin: 5px;
+  text-align: center;
+}
+.class-header .mi-header a:hover {
+  color: #808080;
+}
+
+/* foooter---*/
+footer {
+  background-color: #ffffff;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 40px;
+  color: #000000;
+  text-transform: capitalize;
+  text-align: center;
+}
+footer .mi-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer .mi-footer a {
+  margin: 10px;
+  border: 1px solid #000000;
+  border-radius: 20%;
+  background-color: #ffffff;
+  padding-left: 1px;
+}
+footer .mi-footer a img {
+  width: 60px;
+  padding-left: 10px;
+}
+footer .mi-footer a:hover {
+  background-color: #808080;
+}
+footer .arriba a img {
+  width: 30px;
+}
+footer .arriba a:hover img {
+  width: 50px;
+}
 
 /*# sourceMappingURL=estilos.css.map */
