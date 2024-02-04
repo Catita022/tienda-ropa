@@ -123,8 +123,7 @@ header img{
 
 
 .productos-destacado img{
-    object-fit:contain;
-    /* object-position:bottom; */
+    object-fit:contain; 
     background-color:white;
     height: 550px;
     border:2px solid black;
@@ -196,7 +195,7 @@ footer img{
     padding-left: 1px;
 }
 .mi-footer a:hover{
-    background-color:#c7ed8e;
+    background-color:gray;
     
 }
 
@@ -211,15 +210,7 @@ footer p{
     
     
 }
-/* .arriba a{
-    margin-top:3px;
-    color:black;
-    font-weight: bold;
-    text-decoration: none;
-    border: 1px groove gray;
-    padding:5px;
-    
-} */
+
 .arriba a:hover{
     font-size:1.8rem;
 }
@@ -393,14 +384,15 @@ footer p{
 .link-contactos{
     display:flex;
     justify-content:space-around;
-    height: 120px;
+    height: 100px;
     background-color:white;
+    
 }
 
 .comunicate-nosotros img{
     
-    width:90px;
-    padding-top:2px;
+    width:60px;
+    padding-top:5px;
 }  
 
 
@@ -416,6 +408,7 @@ footer p{
     margin-bottom: 0px;
     font-weight: bold;
     text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+    padding-top:40px;
 }
 
 
@@ -460,7 +453,10 @@ footer p{
     }
     /* index---- */
    
-    
+    .productos-destacado{
+        height:250px;
+    }
+
     .productos-destacado img{
         object-fit:contain;
         padding:10px;
@@ -471,12 +467,13 @@ footer p{
        
         
     }
+    /* para carrusel imagen */
     .mi-alto{
         height: 100% !important;
     }
 
 
-   
+   /* footer ------- */
     
     .mi-footer{
         padding:10px;
@@ -489,9 +486,11 @@ footer p{
         font-size:1rem;
         padding-bottom:5px;
     }
-    .productos-destacado{
-        height:250px;
-    }
-
     
+
+    /* contactos---- */
+    .comunicate-nosotros img{
+        width: 50px;
+        padding-top:30px;
+    }
 }
