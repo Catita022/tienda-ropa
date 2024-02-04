@@ -1,0 +1,31 @@
+@import "generales/variables";
+// estilos generales-----------
+/* importo la fuente q usare en el sitio */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/* para cambiar el valor de rem de 16 a 10px */
+body{
+    font-size:62.5%; 
+    background-color:$color-black;
+    font-family: $font;
+
+}
+
+/* reset pag */
+*{
+    margin:$spacing-reset;
+    padding:$spacing-reset;
+}
+
+@import "generales/headerFooter";
+// pagines------------
+@import "page/index";
+@import "page/hombre";
+@import "page/mujer";
+@import "page/nosotros";
+@import "page/contacto";
+
+
+//final------
+@import "generales/mediaQ";

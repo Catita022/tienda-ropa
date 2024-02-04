@@ -6,22 +6,22 @@
 /* importo la fuente q usare en el sitio */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
 
 
 /* para cambiar el valor de rem de 16 a 10px */
-body{
+/* body{
     font-size:62.5%; 
     background-color:black;
     font-family: 'Roboto', sans-serif;
 
-}
+} */
 
 /* reset pag */
-*{
+/* *{
     margin:0px;
     padding:0px;
-}
+} */
 
 
 /* header--------------- */

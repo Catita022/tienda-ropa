@@ -1,0 +1,13 @@
+
+$font:'Roboto', sans-serif;
+$color-black:#000000;
+$color-white:#ffffff;
+$spacing-reset:0px;
+
+// mixin-flex
+@mixin flex ($direccion, $justify, $aling){
+    display: flex;
+    flex-direction:$direccion;
+    justify-content: $justify;
+    align-items: $aling;
+}
