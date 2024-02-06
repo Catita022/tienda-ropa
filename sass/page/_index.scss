@@ -12,11 +12,13 @@ main{
     }
     .productos-destacado{
         
+        
         img{
             object-fit:contain; 
-            background-color:$color-white;
-            height: 550px;
-            border:2px solid $color-black;
+            background-color:#FFE7E7;
+            object-position: center;
+            height:600px;
+            // border:1px solid $color-black;
         }
         
         button{
@@ -25,6 +27,7 @@ main{
                 background-color:$color-gray;
             }
         }
+         
     }
     
     section{
@@ -33,9 +36,10 @@ main{
             
         }
         .tarjetas-index{
+            
             img{
                 margin:0px;
-                height:350px;
+                height: 400px;
                 }
                 h3{
                     font-size:2rem;

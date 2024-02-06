@@ -1,11 +1,11 @@
 /*header------*/
 
 .class-header{
-    
     font-size: 1.5rem;
     position:sticky;
     top:0px;
     z-index:3;
+    
     img{
         width:100px;
         border-radius:60px; 
@@ -41,7 +41,8 @@
 
 /* foooter---*/
 footer{
-    background-color:$color-white;
+    // background-color:$color-white;
+    background-color: #FFE7E7;
     /*margin-top:5px;*/ 
     @include flex(column,center,center);
     p{
