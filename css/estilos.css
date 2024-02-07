@@ -45,8 +45,7 @@ body {
 
 /* foooter---*/
 footer {
-  background-color: #FFE7E7;
-  /*margin-top:5px;*/
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,21 +67,25 @@ footer .mi-footer {
   align-items: center;
 }
 footer .mi-footer a {
-  margin: 10px;
-  border: 1px solid #000000;
-  border-radius: 20%;
+  margin: 5px;
   background-color: #ffffff;
-  padding-left: 1px;
 }
 footer .mi-footer a img {
-  width: 60px;
-  padding-left: 10px;
+  object-position: center;
+  width: 40px;
 }
-footer .mi-footer a:hover {
-  background-color: #808080;
+footer .mi-footer a img:hover {
+  border: 1px solid #000000;
+  border-radius: 90%;
+  padding: 5px;
 }
 footer .arriba a img {
   width: 30px;
+}
+footer .arriba a img:hover {
+  border: 1px solid #000000;
+  border-radius: 90%;
+  padding: 2px;
 }
 
 .banner {
@@ -328,15 +331,17 @@ main .formulario .caja-buttom {
     flex-direction: column;
   }
   /*index*/
-  .productos-destacados {
-    height: 250px;
+  main .productos-destacado img {
+    object-fit: cover;
+    object-position: top;
+    height: 310px;
+    background-color: #ffffff;
   }
-  .productos-destacados img {
-    object-fit: contain;
-    padding: 10px;
-    object-position: bottom;
-    height: 400px;
-    background-color: rgb(45, 45, 112);
+  main .titulo-contactos {
+    font-size: 30px;
+  }
+  main .link-contactos img {
+    width: 50px;
   }
   /*footer---*/
   footer p {

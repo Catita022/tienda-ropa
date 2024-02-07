@@ -8,21 +8,32 @@
         flex-direction: column;
     }
     /*index*/
-    .productos-destacados{
-        height: 250px;
-        
-        img{
-            object-fit:contain;
-            padding:10px;
-            object-position:bottom;
+    main{
+        .productos-destacado{
             
-            height: 400px;
-            background-color:rgb(45, 45, 112);
+            
+            img{
+                object-fit:cover;
+                object-position:top;
+                height: 310px; 
+                background-color:$color-white;   
+            }
+            
             
         }
-        
-        
+
     }
+    main{
+        .titulo-contactos{
+            font-size: 30px;
+        }
+        .link-contactos{
+            img{
+                width:50px;
+            }
+        }
+    }
+    
     /*footer---*/
     footer{
         p{

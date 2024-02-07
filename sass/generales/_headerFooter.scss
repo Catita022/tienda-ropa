@@ -41,9 +41,8 @@
 
 /* foooter---*/
 footer{
-    // background-color:$color-white;
-    background-color: #FFE7E7;
-    /*margin-top:5px;*/ 
+    
+    background-color:$color-white;
     @include flex(column,center,center);
     p{
         margin-top:5px;
@@ -61,18 +60,23 @@ footer{
         
         
         a{
-            margin: 10px;
-            border: 1px solid $color-black; 
-            border-radius: 20%;
+            
+            margin: 5px;
+            
             background-color:$color-white;
-            padding-left: 1px;
+            
             img{
-                width:60px;
-                padding-left:10px;
+                object-position: center;
+                width:40px;
+                
+                &:hover{
+                    border:1px solid $color-black;
+                    border-radius: 90%;
+                    padding:5px;
+                    
+                }
             }
-            &:hover{
-                background-color: $color-gray;
-            }
+            
             
         }
         
@@ -81,6 +85,11 @@ footer{
         a{
             img{
                 width:30px;
+                &:hover{
+                    border:1px solid $color-black;
+                    border-radius: 90%;
+                    padding:2px;
+                }
             
             }
         
