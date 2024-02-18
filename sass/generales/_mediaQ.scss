@@ -1,5 +1,5 @@
-/*mediaQ*/
-@media only screen and (max-width:580px){
+/*mediaQ celular*/
+@media only screen and (max-width:480px){
     .banner{
         display:none;
     }
@@ -45,6 +45,103 @@
                 border:none;
                 
             }
+        }
+        
+    }
+}
+
+/*mediaQ tablet*/
+@media only screen and (min-width:481px) and (max-width:950px){
+    /*index*/
+    main{
+        .productos-destacado{
+            
+            
+            img{
+                object-fit:contain;
+                object-position:top;
+                height: 410px; 
+                
+                  
+            }
+            
+            
+        }
+        .tarjetas-index{
+            display: flex;
+            flex-direction: column;
+            .mi-card{
+                display: flex;
+                flex-direction: row;
+                
+
+                img{
+                    width:266px;
+                    
+                }
+                p{
+                    font-size:1.5rem;
+                    
+                }
+            }
+        }
+
+    }
+    /*Nosotros*/
+    main{
+        
+        .nuestro-equipo{
+            
+            p{
+                font-size: 1.2rem;
+                
+            }
+        }
+    }
+    /*man */
+    main{
+        .title-man{
+            h2{
+                font-size: 2.5rem;
+            }
+            h3{
+                font-size:1.9rem;
+                padding:10px;
+            }
+        }
+        .padre-hombre{
+            .section-hombre{
+                img{
+                    width:100%;
+                }
+            }
+        }
+    }
+    /*woman*/
+    main{
+        .title-woman{
+            h2{
+                font-size: 2.2rem;
+            }
+            h3{
+                font-size: 1.9rem;
+                padding:10px;
+            }
+            
+        }
+        .padre-mujer{
+            
+            img{
+                width:100%;
+            }
+        }
+    }
+    /*footer*/
+    footer{
+        
+        p{
+            padding:40px;
+            font-size:1.8rem;
         }
         
     }

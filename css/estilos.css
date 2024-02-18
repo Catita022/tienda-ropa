@@ -321,8 +321,8 @@ main .formulario .caja-buttom {
   text-align: center;
 }
 
-/*mediaQ*/
-@media only screen and (max-width: 580px) {
+/*mediaQ celular*/
+@media only screen and (max-width: 480px) {
   .banner {
     display: none;
   }
@@ -350,6 +350,60 @@ main .formulario .caja-buttom {
   }
   footer .mi-footer a {
     border: none;
+  }
+}
+/*mediaQ tablet*/
+@media only screen and (min-width: 481px) and (max-width: 950px) {
+  /*index*/
+  main .productos-destacado img {
+    object-fit: contain;
+    object-position: top;
+    height: 410px;
+  }
+  main .tarjetas-index {
+    display: flex;
+    flex-direction: column;
+  }
+  main .tarjetas-index .mi-card {
+    display: flex;
+    flex-direction: row;
+  }
+  main .tarjetas-index .mi-card img {
+    width: 266px;
+  }
+  main .tarjetas-index .mi-card p {
+    font-size: 1.5rem;
+  }
+  /*Nosotros*/
+  main .nuestro-equipo p {
+    font-size: 1.2rem;
+  }
+  /*man */
+  main .title-man h2 {
+    font-size: 2.5rem;
+  }
+  main .title-man h3 {
+    font-size: 1.9rem;
+    padding: 10px;
+  }
+  main .padre-hombre .section-hombre img {
+    width: 100%;
+  }
+  /*woman*/
+  main .title-woman h2 {
+    font-size: 2.2rem;
+  }
+  main .title-woman h3 {
+    font-size: 1.9rem;
+    padding: 10px;
+  }
+  main .padre-mujer img {
+    width: 100%;
+  }
+  /*footer*/
+  footer p {
+    padding: 40px;
+    font-size: 1.8rem;
   }
 }
 
