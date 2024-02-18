@@ -353,7 +353,7 @@ main .formulario .caja-buttom {
   }
 }
 /*mediaQ tablet*/
-@media only screen and (min-width: 481px) and (max-width: 950px) {
+@media only screen and (min-width: 481px) and (max-width: 1200px) {
   /*index*/
   main .productos-destacado img {
     object-fit: contain;
@@ -373,10 +373,6 @@ main .formulario .caja-buttom {
   }
   main .tarjetas-index .mi-card p {
     font-size: 1.5rem;
-  }
-  /*Nosotros*/
-  main .nuestro-equipo p {
-    font-size: 1.2rem;
   }
   /*man */
   main .title-man h2 {
@@ -399,6 +395,15 @@ main .formulario .caja-buttom {
   }
   main .padre-mujer img {
     width: 100%;
+  }
+  /*Nosotros*/
+  main .nuestro-equipo p {
+    font-size: 1.2rem;
+  }
+  /*contactos*/
+  main h2.titulo-formulario {
+    padding: 5px;
+    font-size: 1.7rem;
   }
   /*footer*/
   footer p {
